@@ -37,6 +37,11 @@ const Header = () => {
 
       {/* Hero */}
       <div className="hero-container">
+
+      <div className="content" id='hero-img-con'>
+          <img src="/public/IMG_3457 (2).jpg" alt="" loading='lazy' className='hero-image'/>
+        </div>
+        
         <div className="content" id='hero-title-con'>
           <div className="title">Secure & Seamless Banking at Your <span>Convenience.</span></div>
           <img src="/line.png" alt="line" className='line-drawing'/>
@@ -47,9 +52,7 @@ const Header = () => {
             <button>Get the app</button>
           </div>
         </div>
-        <div className="content" id='hero-img-con'>
-          <img src="/public/IMG_3457 (2).jpg" alt="" loading='lazy' className='hero-image'/>
-        </div>
+        
       </div>
       
       <div className="partners"></div>
