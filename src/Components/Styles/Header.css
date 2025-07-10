@@ -26,87 +26,7 @@
     transform: translateY(-2px);
   }
   
-  /* Navigation Section */
-  .navigation {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #4241412c;
-    z-index: 1000;
-    box-shadow: 2px 2px 2px #00000010;
-    padding: 0 20px;
-  }
-  
-  .logo {
-    width: auto;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .logo img {
-    width: 100px;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 20px;
-    color: var(--primary-text-color);
-  }
-  
-  .link {
-    position: relative; 
-    text-decoration: none;
-    color: inherit;
-    padding: 5px 0;
-  }
-  
-  .link:hover {
-    font-weight: 600;
-  }
-  
-  .link.active {
-    font-weight: 700;
-  }
-  
-  .link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 0;
-    background-color: var(--button-bg-color);
-    transition: width 0.3s ease-in-out;
-  }
-  
-  .link:hover::after,
-  .link.active::after {
-    width: 100%;
-  }
-  
-  .button {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-  }
-  
-  .hamburger span {
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: var(--primary-text-color);
-    border-radius: 10px;
-  }
+ 
   
   /* Hero Section */
   .hero-container {
@@ -176,15 +96,75 @@
   /* Partners */
   .partners {
     width: 100%;
-    height: 50px;
+    height: 100px;
     display: flex;
-    justify-content: center;
-    background-image: url(/partner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #a1a1a165;
   }
+  .partners img {
+    width: 100px;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0) saturate(100%) invert(34%) sepia(1%) saturate(1710%) hue-rotate(0deg) brightness(94%) contrast(93%);
+  }
+
+  /* Offers container */
   
+  .offers-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+
+  .offer-content {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 1, 165);
+    border-radius: 20px;
+    padding: 16px 16px 16px 16px;
+  }
+  .box:hover {
+    background-color: rgb(11, 11, 90);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+  }
+  #top-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #top-inner img {
+    width: 150px;
+  }
+  #bottom-inner .title {
+    font-size: 1rem;
+    line-height: 2.40vw;
+    font-weight: 700;
+    margin: 2.17vw 0px 0.34vw;
+    color: #ffffff;
+    /* color: rgb(33, 15, 96) !important; */
+  }
+  .box p {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+    /* color: rgb(2, 21, 131)!important; */
+  }
+
+
   /* Media Queries */
   @media screen and (max-width: 1024px) {
     .content .title {
@@ -263,22 +243,17 @@
     .line-drawing {
       display: none;
     }
+
+    .offer-content {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
   }
   
   @media screen and (max-width: 480px) {
-    .navigation {
-      padding: 15px;
-    }
-    
-    .logo img {
-      width: 80px;
-    }
-    
-    .button button {
-      padding: 8px 15px;
-      font-size: 0.9rem;
-    }
-    
+
     .content .title {
       font-size: 2rem;
     }
@@ -287,12 +262,13 @@
       padding: 10px 15px;
       gap: 20px;
     }
-    
-    .nav-links {
+
+    .offer-content {
       width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
     }
+
     
-    .button {
-      margin-right: 40px;
-    }
   }
