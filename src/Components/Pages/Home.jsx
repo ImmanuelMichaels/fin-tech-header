@@ -29,11 +29,13 @@ const Header = () => {
         <img src="/cbn.png" alt="cbn logo" />
         <img src="/ndic.png" alt="nigeria deposit insurance commission logo" />
         <img src="/nibb.png" alt="nibbs logo" />
-        <img src="/public/mastercard.png" alt="" />
-        <img src="/public/visa.png" alt="" />
+        <img src="/mastercard.png" alt="mastercard logo" />
+        <img src="/visa.png" alt="visa logo" />
       </div>
 
       <div className="offers-container">
+          <h1>Bank with <span>Finfix</span>.</h1>
+          <p>Enjoy a <span>transfer success rate of 99.9%</span> and experience seamless payment transfers. Need to pay some bills, pay a business or send money to a friend? Finfix transfers go through every time. We mean it.</p>
         <div className="offer-content">
           <div className="box">
             <div id="top-inner">
@@ -74,6 +76,19 @@ const Header = () => {
               <h4 className='title'>Instant and Free Debit Card</h4>
               <p>Apply and get a card instantly at selected opay agents or apply via opay App, enjoy 10 free ATM withdrawal monthly and zero maintainace fee. </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="services-container">
+        <div className="services-content">
+          <div className="text">
+            <h1>Fund your Account, Make Transfers, Pay Bills</h1>
+              <p>  Live life on your own terms! Add money to your OPay wallet and transfer to other bank accounts for free. Enjoy bonuses on airtime 
+                & data top-ups and fast bill payments at no extra charge.</p>
+          </div>
+          <div className="image">
+
           </div>
         </div>
       </div>
