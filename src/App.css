@@ -10,6 +10,18 @@
   --primary-text-color: #1c49aa;
   --button-bg-color: #0134a9;
   --text-color: rgb(11, 11, 90);
+  --primary-light-50: #ecf2fe;
+  --primary-light-40: #cfdffc;
+  --primary-light-blue: #b7cffa;
+  --white: #fff;
+  --primary-white: #fff;
+  --secondary-white: #f1f2f4;
+  --black: #000;
+  --primary-black: #030b1d;
+  --yellow: #f2d84b;
+  --primary-core-blue: #0357ee;
+  --primary-blue-2: #246df0;
+  --primary-dark-10: #0349c6;
 }
 
 body {
@@ -20,7 +32,7 @@ body {
 }
 
 button {
-  padding: 18px 28px;
+  padding: 24px 28px;
   color: #ffffff;
   background-color: var(--button-bg-color);
   border-radius: 40px;

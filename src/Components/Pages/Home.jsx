@@ -79,18 +79,141 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <div className="info-container">
+        <div className="container">
+            <div className="content">
+              <div className="personal-tools-left">
+                <div className="small-title">
+                  <h2>Instant Transfer</h2>
+                </div>
+                <div className="text">
+                  <h1>Fund your Account, Make Transfers, Pay Bills</h1>
+                    <p>  Live life on your own terms! Add money to your Finfix wallet and transfer to other bank accounts for free. Enjoy bonuses on airtime 
+                      & data top-ups and fast bill payments at no extra charge.</p>
+                </div>
 
-      <div className="services-container">
-        <div className="services-content">
-          <div className="text">
-            <h1>Fund your Account, Make Transfers, Pay Bills</h1>
-              <p>  Live life on your own terms! Add money to your OPay wallet and transfer to other bank accounts for free. Enjoy bonuses on airtime 
-                & data top-ups and fast bill payments at no extra charge.</p>
+                <div className="cta-container">
+                  <button>Get Started</button>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/public/tool3.png" alt="" />
+              </div>
+            </div>
+        </div>
+
+        <div className="container">
+            <div className="content">
+              <div className="personal-tools-left">
+                <div className="small-title">
+                  <h2>Personal Account</h2>
+                </div>
+                <div className="text">
+                  <h1>One app for all your banking needs</h1>
+                    <p>Need to manage your money with ease? We know that your money is important to you, and we take that seriously. Manage your money, make payments and pay bills all from our banking app.</p>
+                </div>
+
+                <div className="cta-container">
+                  <button>Get Started</button>
+                </div>
+              </div>
+              <div className="image">
+                <img src="/hero.png" alt="" />
+              </div>
+            </div>
+        </div>
+
+        <div className="container">
+            <div className="content">
+              <div className="image">
+                <img src="/card.png" alt="" />
+              </div>
+              <div className="personal-tools-left">
+                <div className="small-title">
+                  <h2>Debit Cards</h2>
+                </div>
+                <div className="text">
+                  <h1>Instant Debit cards that always work</h1>
+                    <p>If transfers aren’t your jam, we get it. Request a debit card and have it delivered to you within 48 hours. Activate it in minutes, and start using it right away.</p>
+                </div>
+
+                <div className="cta-container">
+                  <button>Get Started</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    
+    {/* Why Banking with us */}
+      <div className="bg-ys">
+        <div className="heading-text">
+          <p id='a'>Other Benefits</p>
+          <p id='b'>More Reasons to Bank with Finfix</p>
+        </div>
+        <div className="b-boxes">
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/art.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">Advanced Safety Measures</p>
+                <h3 className='benefit-sub-head'>State-of-the-art security</h3>
+                <p>Finfix uses up-to-date cybersecurity technology to protect your information and prevent unauthorized use.</p>
+              </div>
           </div>
-          <div className="image">
-
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/pro.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">Insurance</p>
+                <h3 className='benefit-sub-head'>Protection and peace of mind</h3>
+                <p>Your funds are insured for up to N250,000 by the Nigerian Deposit Insurance Corporation.</p>
+              </div>
+          </div>
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/sim.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">Simple Limit Upgrade</p>
+                <h3 className='benefit-sub-head'>Upgrade Your Limits Easily</h3>
+                <p>Reach for the Stars! Effortlessly upgrade your transaction limits and explore new financial possibilities.</p>
+              </div>
+          </div>
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/virtual.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">Virtual Card</p>
+                <h3 className='benefit-sub-head'>Extra Layer of Security</h3>
+                <p>Stay secure while shopping online with our virtual card feature. Shop confidently, knowing your actual card details are protected.</p>
+              </div>
+          </div>
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/business.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">99.9% reliability</p>
+                <h3 className='benefit-sub-head'>Say goodbye to downtimes</h3>
+                <p>Pay anywhere with confidence using a banking solution that always never goes offline.</p>
+              </div>
+          </div>
+          <div className="b-box-content">
+              <div className="icon">
+                <img src="/icons/clock.svg" alt="" />
+              </div>
+              <div className="text-section">
+                <p className="s-head">Anytime, anywhere</p>
+                <h3 className='benefit-sub-head'>Round the Clock support</h3>
+                <p>We’re always here to talk. Reach our support team however you need to -  by phone, email, in the app, or check out the Help Center.</p>
+              </div>
           </div>
         </div>
+      
       </div>
     </div>
   )
